@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="server.db.FilmServiceImplTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-05-19T09:51:34" hostname="kb-Lenovo-ideapad-330-17IKB" time="1.211">
+  <properties/>
+  <testcase name="whenFindFlatAll_thenSuccess()" classname="server.db.FilmServiceImplTest" time="0.3"/>
+  <testcase name="givenOutBounds_findFlatPageAllOrderByTitle_thenEmpty()" classname="server.db.FilmServiceImplTest" time="0.032"/>
+  <testcase name="givenGoodPattern_whenFindAllLikeTitle_thenSuccess()" classname="server.db.FilmServiceImplTest" time="0.02"/>
+  <testcase name="givenExistsId_whenFindById_thenSuccess()" classname="server.db.FilmServiceImplTest" time="0.046"/>
+  <testcase name="givenExistFilm_whenSave_thenSuccessfulUpdate()" classname="server.db.FilmServiceImplTest" time="0.634"/>
+  <testcase name="givenCorrectBounds_findFlatPageAllOrderByTitle_thenSuccess()" classname="server.db.FilmServiceImplTest" time="0.019"/>
+  <testcase name="givenNewFilm_whenSave_thenSuccessfulInsert()" classname="server.db.FilmServiceImplTest" time="0.029"/>
+  <testcase name="givenOutLimitBounds_findFlatPageAllOrderByTitle_thenSuccess()" classname="server.db.FilmServiceImplTest" time="0.016"/>
+  <testcase name="givenUnknownId_whenFindById_thenEmpty()" classname="server.db.FilmServiceImplTest" time="0.013"/>
+  <testcase name="givenCorrectBounds_findPageAllOrderByTitle_thenSuccess()" classname="server.db.FilmServiceImplTest" time="0.029"/>
+  <testcase name="givenAllElementBounds_findFlatPageAllOrderByTitle_thenSuccess()" classname="server.db.FilmServiceImplTest" time="0.015"/>
+  <testcase name="givenBlankPattern_whenFindAllLikeTitle_thenReturnAll()" classname="server.db.FilmServiceImplTest" time="0.015"/>
+  <testcase name="givenBadPattern_whenFindAllLikeTitle_thenEmptyResult()" classname="server.db.FilmServiceImplTest" time="0.014"/>
+  <testcase name="givenEmptyPattern_whenFindAllLikeTitle_thenReturnAll()" classname="server.db.FilmServiceImplTest" time="0.016"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

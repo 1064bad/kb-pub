@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9e000a70-6169-4794-b6df-05142ce960f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/client/token/FilePersistentTokenHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/client/token/TokenHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3-AsyncSimpleNet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../5-clean/build/test-results/test/TEST-library.lv3.usecase.AddNewBookInteractorTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/message/EchoRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/message/EchoResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/message/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/server/EchoProtocolHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-1-bytecode/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-1-bytecode/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-1-bytecode/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-1-bytecode/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-1-bytecode/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-1-bytecode/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-1-bytecode/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-1-bytecode/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-1-bytecode/s2-t1-1-bytecode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-1-bytecode/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-1-bytecode/src/main/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-1-bytecode/src/main/SettingsMBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-2-javassist/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-2-javassist/.idea/artifacts/app.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-2-javassist/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-2-javassist/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-2-javassist/.idea/libraries/javassist.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-2-javassist/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-2-javassist/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-2-javassist/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-2-javassist/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-2-javassist/s2-t1-2-javassist.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-2-javassist/src/agent/MainTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-2-javassist/src/agent/Premainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-2-javassist/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-3-loaders/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-3-loaders/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-3-loaders/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-3-loaders/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-3-loaders/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-3-loaders/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-3-loaders/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-3-loaders/s2-t11-3-loaders.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-3-loaders/src/loaders/LoaderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-3-loaders/src/loaders/LoaderFactoryMBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7-loaders_bytecode/s2-t1-3-loaders/src/loaders/Main.java" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/client/token/FilePersistentTokenHolder.java" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/client/token/TokenHolder.java" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/3-AsyncSimpleNet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/test-results/test/TEST-library.lv3.usecase.AddNewBookInteractorTest.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet/.gitignore" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet/build.gradle.kts" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet/gradlew" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet/gradlew.bat" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet/settings.gradle.kts" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet/src/main/java/app/message/EchoRequest.java" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet/src/main/java/app/message/EchoResponse.java" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet/src/main/java/app/message/Message.java" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet/src/main/java/app/server/EchoProtocolHandler.java" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet/src/main/java/app/server/Server.java" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-1-bytecode/.idea/.gitignore" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-1-bytecode/.idea/.name" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-1-bytecode/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-1-bytecode/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-1-bytecode/.idea/misc.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-1-bytecode/.idea/modules.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-1-bytecode/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-1-bytecode/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-1-bytecode/s2-t1-1-bytecode.iml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-1-bytecode/src/main/Main.java" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-1-bytecode/src/main/Settings.java" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-1-bytecode/src/main/SettingsMBean.java" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-2-javassist/.idea/.gitignore" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-2-javassist/.idea/artifacts/app.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-2-javassist/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-2-javassist/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-2-javassist/.idea/libraries/javassist.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-2-javassist/.idea/misc.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-2-javassist/.idea/modules.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-2-javassist/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-2-javassist/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-2-javassist/s2-t1-2-javassist.iml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-2-javassist/src/agent/MainTransformer.java" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-2-javassist/src/agent/Premainer.java" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-2-javassist/src/main/Main.java" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-3-loaders/.idea/.gitignore" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-3-loaders/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-3-loaders/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-3-loaders/.idea/misc.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-3-loaders/.idea/modules.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-3-loaders/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-3-loaders/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-3-loaders/s2-t11-3-loaders.iml" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-3-loaders/src/loaders/LoaderFactory.java" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-3-loaders/src/loaders/LoaderFactoryMBean.java" afterDir="false" />
+      <change afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/7-loaders_bytecode/s2-t1-3-loaders/src/loaders/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-SimpleNet/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1-SimpleNet/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-SimpleNet/src/app/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1-SimpleNet/src/app/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-FileRemoteStorage/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2-FileRemoteStorage/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/client/TokenHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/client/token/InMemoryTokenHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/client/command/CheckAuthCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/client/command/CheckAuthCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/client/command/FileDownloadCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/client/command/FileDownloadCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/client/command/FileListCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/client/command/FileListCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/client/command/FileUploadCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/client/command/FileUploadCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/client/command/LoginCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/client/command/LoginCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/server/session/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2-FileRemoteStorage/src/app/server/session/Session.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3-AsyncSimpleNet/src/app/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3-AsyncSimpleNet/src/app/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3-AsyncSimpleNet/src/app/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3-AsyncSimpleNet/src/app/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3-AsyncSimpleNet/src/app/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3-AsyncSimpleNet/src/app/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3-AsyncSimpleNet/src/app/message/EchoRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3-AsyncSimpleNet/src/app/message/EchoRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3-AsyncSimpleNet/src/app/message/EchoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3-AsyncSimpleNet/src/app/message/EchoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3-AsyncSimpleNet/src/app/message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3-AsyncSimpleNet/src/app/message/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4-GradleTest/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4-GradleTest/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-clean/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5-clean/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-clean/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5-clean/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-clean/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5-clean/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-clean/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../5-clean/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-clean/build/reports/tests/test/classes/library.lv1.entity.BookTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../5-clean/build/reports/tests/test/classes/library.lv1.entity.BookTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-clean/build/reports/tests/test/classes/library.lv3.usecase.AddNewBookUseCaseTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../5-clean/build/reports/tests/test/classes/library.lv3.usecase.AddNewBookInteractorTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-clean/build/reports/tests/test/classes/library.lv3.usecase.GetAllBooksUseCaseTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-clean/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../5-clean/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-clean/build/reports/tests/test/packages/library.lv1.entity.html" beforeDir="false" afterPath="$PROJECT_DIR$/../5-clean/build/reports/tests/test/packages/library.lv1.entity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-clean/build/reports/tests/test/packages/library.lv3.usecase.html" beforeDir="false" afterPath="$PROJECT_DIR$/../5-clean/build/reports/tests/test/packages/library.lv3.usecase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-clean/build/test-results/test/TEST-library.lv1.entity.BookTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5-clean/build/test-results/test/TEST-library.lv1.entity.BookTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-clean/build/test-results/test/TEST-library.lv3.usecase.AddNewBookUseCaseTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-clean/build/test-results/test/TEST-library.lv3.usecase.GetAllBooksUseCaseTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-clean/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../5-clean/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-clean/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../5-clean/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-clean/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../5-clean/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-clean/src/test/java/library/lv1/entity/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5-clean/src/test/java/library/lv1/entity/BookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-clean/src/test/java/library/lv3/usecase/AddNewBookInteractorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../5-clean/src/test/java/library/lv3/usecase/AddNewBookInteractorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5-clean/src/test/java/library/lv3/usecase/GetAllBooksInteractorTest.java" beforeDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/1-SimpleNet/.idea/misc.xml" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/1-SimpleNet/.idea/misc.xml" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/1-SimpleNet/src/app/Client.java" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/1-SimpleNet/src/app/Client.java" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/.idea/misc.xml" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/.idea/misc.xml" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/Settings.java" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/Settings.java" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/client/Client.java" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/client/Client.java" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/client/TokenHolder.java" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/client/token/InMemoryTokenHolder.java" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/client/command/CheckAuthCommand.java" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/client/command/CheckAuthCommand.java" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/client/command/FileDownloadCommand.java" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/client/command/FileDownloadCommand.java" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/client/command/FileListCommand.java" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/client/command/FileListCommand.java" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/client/command/FileUploadCommand.java" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/client/command/FileUploadCommand.java" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/client/command/LoginCommand.java" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/client/command/LoginCommand.java" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/server/Server.java" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/server/Server.java" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/server/session/Session.java" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/2-FileRemoteStorage/src/app/server/session/Session.java" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/3-AsyncSimpleNet/src/app/Client.java" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/3-AsyncSimpleNet/src/app/Client.java" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/3-AsyncSimpleNet/src/app/Server.java" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/3-AsyncSimpleNet/src/app/Server.java" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/3-AsyncSimpleNet/src/app/Settings.java" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/3-AsyncSimpleNet/src/app/Settings.java" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/3-AsyncSimpleNet/src/app/message/EchoRequest.java" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/3-AsyncSimpleNet/src/app/message/EchoRequest.java" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/3-AsyncSimpleNet/src/app/message/EchoResponse.java" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/3-AsyncSimpleNet/src/app/message/EchoResponse.java" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/3-AsyncSimpleNet/src/app/message/Message.java" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/3-AsyncSimpleNet/src/app/message/Message.java" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/4-GradleTest/.idea/gradle.xml" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/4-GradleTest/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/.idea/gradle.xml" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/.idea/misc.xml" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/.idea/misc.xml" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/.idea/vcs.xml" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build.gradle.kts" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build.gradle.kts" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/reports/tests/test/classes/library.lv1.entity.BookTest.html" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/reports/tests/test/classes/library.lv1.entity.BookTest.html" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/reports/tests/test/classes/library.lv3.usecase.AddNewBookUseCaseTest.html" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/reports/tests/test/classes/library.lv3.usecase.AddNewBookInteractorTest.html" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/reports/tests/test/classes/library.lv3.usecase.GetAllBooksUseCaseTest.html" beforeDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/reports/tests/test/index.html" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/reports/tests/test/packages/library.lv1.entity.html" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/reports/tests/test/packages/library.lv1.entity.html" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/reports/tests/test/packages/library.lv3.usecase.html" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/reports/tests/test/packages/library.lv3.usecase.html" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/test-results/test/TEST-library.lv1.entity.BookTest.xml" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/test-results/test/TEST-library.lv1.entity.BookTest.xml" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/test-results/test/TEST-library.lv3.usecase.AddNewBookUseCaseTest.xml" beforeDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/test-results/test/TEST-library.lv3.usecase.GetAllBooksUseCaseTest.xml" beforeDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/src/test/java/library/lv1/entity/BookTest.java" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/src/test/java/library/lv1/entity/BookTest.java" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/src/test/java/library/lv3/usecase/AddNewBookInteractorTest.java" beforeDir="false" afterPath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/src/test/java/library/lv3/usecase/AddNewBookInteractorTest.java" afterDir="false" />
+      <change beforePath="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/5-clean/src/test/java/library/lv3/usecase/GetAllBooksInteractorTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2eJ9OLV9Ok1VTurIaVc27QDSjfL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.NettySimpleNet::media:storage:YDisk:Универ:Предметы-private:ТМП 2:git:tmp-2:2023-24:NettySimpleNet [:Server.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.run.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kb/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/6-NettySimpleNet&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="/media/storage/YDisk/Универ/Предметы-private/ТМП 2/git/tmp-2/2023-24/NettySimpleNet/src/main/java/app/server" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.run">
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.server.Server" />
+      <module name="org.example.NettySimpleNet.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Gradle.run" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e000a70-6169-4794-b6df-05142ce960f0" name="Changes" comment="" />
+      <created>1711611782859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711611782859</updated>
+    </task>
+    <servers />
+  </component>
+</project>

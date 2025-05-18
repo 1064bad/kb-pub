@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Film finder</title>
+</head>
+<body>
+    <form method="post" action="search">
+        <input name="search_phrase" type="text" />
+        <input type="submit" value="Search" />
+        <input name="text" type="text" value="##var:test">
+    </form>
+    <p>
+        ##each:pages
+            <a href="./search?offset=##iter.offset&limit=##iter.limit">##iter.pageNum</a>&nbsp;
+        ###
+    </p>
+    <table border="10">
+        ##each:films
+            <tr onclick="window.open('edit/##iter.id', '_blank')">
+                <th>
+                    ##iter.title
+                </th>
+                <th>
+                    ##iter.duration
+                </th>
+            </tr>
+        ###
+    </table>
+</body>
+</html>

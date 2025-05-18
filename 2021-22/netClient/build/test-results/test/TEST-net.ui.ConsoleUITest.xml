@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.ui.ConsoleUITest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-27T09:53:04" hostname="kb-Lenovo-ideapad-330-17IKB" time="0.453">
+  <properties/>
+  <testcase name="givenConnectLine_whenParseCommand_thenReturnsCommandObject()" classname="net.ui.ConsoleUITest" time="0.404"/>
+  <testcase name="givenSpacesUppercaseConnectLine_whenParseCommand_thenReturnsCommandObject()" classname="net.ui.ConsoleUITest" time="0.003"/>
+  <testcase name="givenSendOnlyLine_whenParseCommand_thenReturnsNull()" classname="net.ui.ConsoleUITest" time="0.002"/>
+  <testcase name="givenSpacesUppercaseSendLine_whenParseCommand_thenReturnsSendObjectWithMessage()" classname="net.ui.ConsoleUITest" time="0.012"/>
+  <testcase name="givenSomeCommandLine_whenGetCommand_callParseCommand()" classname="net.ui.ConsoleUITest" time="0.029"/>
+  <system-out><![CDATA[INVOKED
+comm = Connect{}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

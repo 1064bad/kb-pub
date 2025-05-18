@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="b">
+    <output-path>$PROJECT_DIR$/out/artifacts/b</output-path>
+    <root id="root">
+      <element id="archive" name="start.jar">
+        <element id="module-output" name="s2-t1-2-javassist" />
+      </element>
+      <element id="library" level="project" name="javassist" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="library.lv1.entity.BookTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-03-28T10:19:52" hostname="kb-vivo" time="0.043">
+  <properties/>
+  <testcase name="givenNegativeId_whenConstruct_thenThrows()" classname="library.lv1.entity.BookTest" time="0.041"/>
+  <testcase name="givenNonNegativeId_whenConstruct_thenOk()" classname="library.lv1.entity.BookTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

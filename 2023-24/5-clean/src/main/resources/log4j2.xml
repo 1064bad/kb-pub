@@ -1,0 +1,15 @@
+<Configuration status="debug">
+    <Appenders>
+        <File name="file-log" fileName="/home/kb/clean.log" append="false">
+            <PatternLayout>
+                <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %C - %msg%n</pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="library" level="info" additivity="false">
+            <appender-ref ref="file-log" level="info"/>
+        </Logger>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Film Editor</title>
+</head>
+<body>
+    <form method="post" action="./##var:film.id">
+        <table border="1">
+            <tr>
+                <td>ID</td>
+                <td>##var:film.id</td>
+            </tr>
+            <tr>
+                <td>Title</td>
+                <td><input type="text" name="title" value="##var:film.title" /></td>
+            </tr>
+            <tr>
+                <td>Duration</td>
+                <td><input type="text" name="duration" value="##var:film.duration" /></td>
+            </tr>
+        </table>
+        <input type="submit" name="edit">
+    </form>
+</body>
+</html>
