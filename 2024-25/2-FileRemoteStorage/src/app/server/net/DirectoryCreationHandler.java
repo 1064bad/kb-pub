@@ -29,13 +29,15 @@ public class DirectoryCreationHandler extends Handler {
         var username = sessionService.get(Token.fromText(req.getAuthToken())).getString(Session.USERNAME);
 
         var directory = req.getDirectory();
-        if (!fileSystemService.fileExists(username, filename)) {
-            throw new ServerException(STR."file '\{filename}' not found");
+
+        if(directory.isBlank()){
+            throw new ServerException();
         }
 
         try {
-            fileSystemService.deleteFile(username, filename);
-        } catch (Exception e) {
+            fileSystemService.createDirectory(username, directory);
+        }
+        catch (Exception e) {
             throw new ServerException(e);
         }
 

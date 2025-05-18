@@ -10,6 +10,8 @@ import app.transport.Transport;
 import app.transport.message.Message;
 import app.transport.message.storage.*;
 
+import java.nio.file.Path;
+
 public class FileMoveHandler extends Handler {
     private final FileStorageService fileSystemService;
     private final SessionService sessionService;
@@ -25,23 +27,22 @@ public class FileMoveHandler extends Handler {
         var req = (FileMoveRequest) message;
         var username = sessionService.get(Token.fromText(req.getAuthToken())).getString(Session.USERNAME);
 
-        var filename = req.getFilename();
+        var filePath = req.getFilePath();
+        var fileName = Path.of(filePath).getFileName().toString();
         var directory = req.getDirectory();
-        var fileExists = fileSystemService.fileExists(username, filename);
+        var fileExists = fileSystemService.fileExists(username, Path.of(directory, fileName).toString());
+
         transport.send(new FileMoveResponse(fileExists));
         if (fileExists) {
-            transport.receive(FileUploadRewriteConfirmation.class);
+            transport.receive(FileMoveRewriteConfirmation.class);
         }
 
-        try (var fileOutputStream = fileSystemService.getFileOutputStream(username, filename)) {
-            var transpotInputStream = transport.getInputStream();
-            var transferred = transpotInputStream.transferTo(fileOutputStream);
-            fileOutputStream.flush();
-            assert transferred == req.getSize();
+        try {
+            fileSystemService.moveFile(username, filePath, directory);
         } catch (Exception e) {
             throw new ServerException(e);
         }
 
-        io.println(STR."file '\{filename}' moved to \{directory} by user '\{username}'");
+        io.println(STR."file '\{filePath}' moved to \{directory} by user '\{username}'");
     }
 }

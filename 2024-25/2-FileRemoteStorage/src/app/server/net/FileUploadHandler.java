@@ -12,6 +12,8 @@ import app.transport.message.storage.FileUploadRequest;
 import app.transport.message.storage.FileUploadResponse;
 import app.transport.message.storage.FileUploadRewriteConfirmation;
 
+import java.nio.file.Path;
+
 public class FileUploadHandler extends Handler {
     private final FileStorageService fileSystemService;
     private final SessionService sessionService;
@@ -28,13 +30,26 @@ public class FileUploadHandler extends Handler {
         var username = sessionService.get(Token.fromText(req.getAuthToken())).getString(Session.USERNAME);
 
         var filename = req.getFilename();
-        var fileExists = fileSystemService.fileExists(username, filename);
+        var directory = req.getDirectory();
+
+        String filePath;
+        if(!directory.isBlank())
+        {
+            if(!fileSystemService.fileExists(username, directory))
+                throw new ServerException(STR."directory \{directory} does not exist");
+
+            filePath= Path.of(directory, filename).toString();
+        }
+        else
+            filePath = filename;
+
+        var fileExists = fileSystemService.fileExists(username, filePath);
         transport.send(new FileUploadResponse(fileExists));
         if (fileExists) {
             transport.receive(FileUploadRewriteConfirmation.class);
         }
 
-        try (var fileOutputStream = fileSystemService.getFileOutputStream(username, filename)) {
+        try (var fileOutputStream = fileSystemService.getFileOutputStream(username, filePath)) {
             var transpotInputStream = transport.getInputStream();
             var transferred = transpotInputStream.transferTo(fileOutputStream);
             fileOutputStream.flush();

@@ -3,15 +3,15 @@ package app.transport.message.storage;
 import app.transport.message.AuthorizedMessage;
 
 public class FileListRequest extends AuthorizedMessage {
-    private final String direction;
+    private final String directory;
 
-    public FileListRequest(String authToken, String direction) {
+    public FileListRequest(String authToken, String directory) {
         super(authToken);
-        this.direction = direction;
+        this.directory = directory;
     }
 
-    public String getDirection() {
-        return direction;
+    public String getDirectory() {
+        return directory;
     }
 
 }

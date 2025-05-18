@@ -10,6 +10,8 @@ import app.transport.message.Message;
 import app.transport.message.storage.FileListRequest;
 import app.transport.message.storage.FileListResponse;
 
+import java.util.List;
+
 public class FileListHandler extends Handler {
     private final FileStorageService fileSystemService;
     private final SessionService sessionService;
@@ -24,7 +26,12 @@ public class FileListHandler extends Handler {
     public void handle(Message message) {
         var req = (FileListRequest) message;
         var username = sessionService.get(Token.fromText(req.getAuthToken())).getString(Session.USERNAME);
-        var files = fileSystemService.listUserFiles(username);
+        var directory = req.getDirectory();
+
+        List<String> files = req.getDirectory().isBlank()
+                ? fileSystemService.listUserFiles(username)
+                : fileSystemService.listUserFilesFromDirectory(username, directory);
+
         transport.send(new FileListResponse(files));
     }
 }
